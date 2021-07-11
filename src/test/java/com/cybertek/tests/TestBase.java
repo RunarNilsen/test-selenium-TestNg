@@ -1,5 +1,6 @@
 package com.cybertek.tests;
 
+import com.cybertek.utilities.ConfigurationReader;
 import com.cybertek.utilities.Driver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -29,6 +30,7 @@ public class TestBase {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         actions = new Actions(driver); // initialize the action class here
         wait = new WebDriverWait(driver, 10); // initialize wait object here.
+        driver.get(ConfigurationReader.get("url")); // get the url from configuration.properties file for each test case
     }
     @AfterMethod
     public void tearDown() throws InterruptedException {
