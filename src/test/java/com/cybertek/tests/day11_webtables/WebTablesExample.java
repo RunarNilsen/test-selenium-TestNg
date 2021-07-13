@@ -22,7 +22,7 @@ public class WebTablesExample {
         driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.get("http://practice.cybertekschool.com/checkboxes");
+        driver.get("http://practice.cybertekschool.com/tables");
     }
     @AfterMethod
     public void tearDown() throws InterruptedException {
