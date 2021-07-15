@@ -1,8 +1,10 @@
 package com.cybertek.tests.day16_ddf;
 
 import com.cybertek.utilities.ExcelUtils;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
@@ -34,11 +36,14 @@ public class ExcelUtilsDemo {
         System.out.println("dataList.get(2) = " + dataList.get(2)); // it return the 3rd row as a map
         System.out.println("firstname = " + dataList.get(2).get("firstname"));
 
+        // get "Harber" as a lastname value
+        System.out.println("lastname = " + dataList.get(8).get("lastname"));
 
+        // get all data in 2d array
+        String [][] dataArray = qa3short.getDataArray();
+        //Printing values inside the 2d arrays. Takes the header part also.
+        System.out.println(Arrays.deepToString(dataArray));
     }
-
-
-
 
 
 }

@@ -45,7 +45,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Jul 15, 2021 12:13:04 AM</span>
+			<span class='label blue darken-3 suite-start-time'>Jul 16, 2021 12:14:37 AM</span>
 			</a>
 		</ul>
 	</div>
@@ -60,7 +60,8 @@
 				<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -103,10 +104,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='84.615%'><span class='strong'>11</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='15.385%'>2</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -124,17 +125,17 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Vytrack Verification Test</span>
-						<span class='test-time'>Jul 15, 2021 12:13:10 AM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-name'>TestJohn Doe</span>
+						<span class='test-time'>Jul 16, 2021 12:14:48 AM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jul 15, 2021 12:13:10 AM</span>
-	<span class='label end-time'>Jul 15, 2021 12:13:22 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 12s+80ms</span>
+	<span class='label start-time'>Jul 16, 2021 12:14:48 AM</span>
+	<span class='label end-time'>Jul 16, 2021 12:14:54 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+916ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -146,80 +147,164 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>12:13:14 AM</td>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:14:54 AM</td>
 				<td class='step-details'>
-						Enter Username:salesmanager120
+						PASSED
 					
 				</td>
 			</tr>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>12:13:14 AM</td>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>TestKyleigh Reichert</span>
+						<span class='test-time'>Jul 16, 2021 12:15:00 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 16, 2021 12:15:00 AM</span>
+	<span class='label end-time'>Jul 16, 2021 12:15:06 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+494ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:15:06 AM</td>
 				<td class='step-details'>
-						Enter Password:UserUser123
+						PASSED
 					
 				</td>
 			</tr>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>12:13:17 AM</td>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>TestNona Carroll</span>
+						<span class='test-time'>Jul 16, 2021 12:15:12 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 16, 2021 12:15:12 AM</span>
+	<span class='label end-time'>Jul 16, 2021 12:15:18 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+914ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:15:18 AM</td>
 				<td class='step-details'>
-						Navigate to customers ->contacts);
+						PASSED
 					
 				</td>
 			</tr>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>12:13:20 AM</td>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>TestGeovany Jenkins</span>
+						<span class='test-time'>Jul 16, 2021 12:15:24 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 16, 2021 12:15:24 AM</span>
+	<span class='label end-time'>Jul 16, 2021 12:15:38 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 13s+530ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:15:38 AM</td>
 				<td class='step-details'>
-						Click on the email of mbrackstone9@example.com
+						PASSED
 					
 				</td>
 			</tr>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>12:13:20 AM</td>
-				<td class='step-details'>
-						Verify full name is Mariam Brackstone
-					
-				</td>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>TestRoma Medhurst</span>
+						<span class='test-time'>Jul 16, 2021 12:15:45 AM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 16, 2021 12:15:45 AM</span>
+	<span class='label end-time'>Jul 16, 2021 12:15:59 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 14s+703ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
 			</tr>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>12:13:21 AM</td>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:15:58 AM</td>
 				<td class='step-details'>
-						Verify email is mbrackstone9@example.com
-					
-				</td>
-			</tr>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>12:13:21 AM</td>
-				<td class='step-details'>
-						Verify phone is +18982323434
+						test1
 					
 				</td>
 			</tr>
 			<tr class='log' status='fail'>
 				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>12:13:21 AM</td>
+				<td class='timestamp'>12:15:59 AM</td>
 				<td class='step-details'>
-						contactDetailsTest
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>12:13:22 AM</td>
-				<td class='step-details'>
-						<textarea disabled class="code-block">java.lang.AssertionError: Verify phone number:  expected [+189823234341] but found [+18982323434]
+						<textarea disabled class="code-block">java.lang.AssertionError: Verify the full name:  expected [Roma Medhurst] but found [Shirin Shirin]
 	at org.testng.Assert.fail(Assert.java:97)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:575)
-	at com.cybertek.tests.day15_review.VerifyContactInfoTest.contactDetailsTest(VerifyContactInfoTest.java:61)
+	at com.cybertek.tests.day16_ddf.DDFLoginTest.test1(DDFLoginTest.java:37)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -255,8 +340,332 @@
 	</table>
 </div>
 						<ul class='screenshots'>
-							<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='/Users/muhammet/Desktop/CybertekKendiCalismam/Selenium/test-output/Screenshots/contactDetailsTest20210715121321.png' src='/Users/muhammet/Desktop/CybertekKendiCalismam/Selenium/test-output/Screenshots/contactDetailsTest20210715121321.png' data-src='/Users/muhammet/Desktop/CybertekKendiCalismam/Selenium/test-output/Screenshots/contactDetailsTest20210715121321.png'></li>
+							<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='/Users/muhammet/Desktop/CybertekKendiCalismam/Selenium/test-output/Screenshots/test120210716121558.png' src='/Users/muhammet/Desktop/CybertekKendiCalismam/Selenium/test-output/Screenshots/test120210716121558.png' data-src='/Users/muhammet/Desktop/CybertekKendiCalismam/Selenium/test-output/Screenshots/test120210716121558.png'></li>
 						</ul>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+					<div class='test-heading'>
+						<span class='test-name'>TestAditya Rempel</span>
+						<span class='test-time'>Jul 16, 2021 12:16:06 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 16, 2021 12:16:06 AM</span>
+	<span class='label end-time'>Jul 16, 2021 12:16:14 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+296ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:16:14 AM</td>
+				<td class='step-details'>
+						PASSED
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>TestTurmer Considine</span>
+						<span class='test-time'>Jul 16, 2021 12:16:21 AM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 16, 2021 12:16:21 AM</span>
+	<span class='label end-time'>Jul 16, 2021 12:16:30 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+180ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:16:29 AM</td>
+				<td class='step-details'>
+						test1
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:16:30 AM</td>
+				<td class='step-details'>
+						<textarea disabled class="code-block">java.lang.AssertionError: Verify the full name:  expected [Turmer Considine] but found [Turner Considine]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at com.cybertek.tests.day16_ddf.DDFLoginTest.test1(DDFLoginTest.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</textarea>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+						<ul class='screenshots'>
+							<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='/Users/muhammet/Desktop/CybertekKendiCalismam/Selenium/test-output/Screenshots/test120210716121629.png' src='/Users/muhammet/Desktop/CybertekKendiCalismam/Selenium/test-output/Screenshots/test120210716121629.png' data-src='/Users/muhammet/Desktop/CybertekKendiCalismam/Selenium/test-output/Screenshots/test120210716121629.png'></li>
+						</ul>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
+					<div class='test-heading'>
+						<span class='test-name'>TestRachel Oberbrunner</span>
+						<span class='test-time'>Jul 16, 2021 12:16:36 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 16, 2021 12:16:36 AM</span>
+	<span class='label end-time'>Jul 16, 2021 12:16:46 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+155ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:16:46 AM</td>
+				<td class='step-details'>
+						PASSED
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
+					<div class='test-heading'>
+						<span class='test-name'>TestPeyton Harber</span>
+						<span class='test-time'>Jul 16, 2021 12:16:52 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 16, 2021 12:16:52 AM</span>
+	<span class='label end-time'>Jul 16, 2021 12:17:04 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+958ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:17:04 AM</td>
+				<td class='step-details'>
+						PASSED
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
+					<div class='test-heading'>
+						<span class='test-name'>TestPatricia Doyle</span>
+						<span class='test-time'>Jul 16, 2021 12:17:11 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 16, 2021 12:17:11 AM</span>
+	<span class='label end-time'>Jul 16, 2021 12:17:19 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+266ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:17:19 AM</td>
+				<td class='step-details'>
+						PASSED
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='11'>
+					<div class='test-heading'>
+						<span class='test-name'>TestNellie Corwin</span>
+						<span class='test-time'>Jul 16, 2021 12:17:25 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 16, 2021 12:17:25 AM</span>
+	<span class='label end-time'>Jul 16, 2021 12:17:33 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+113ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:17:33 AM</td>
+				<td class='step-details'>
+						PASSED
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='12'>
+					<div class='test-heading'>
+						<span class='test-name'>TestNikita Wintheiser</span>
+						<span class='test-time'>Jul 16, 2021 12:17:40 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 16, 2021 12:17:40 AM</span>
+	<span class='label end-time'>Jul 16, 2021 12:17:48 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+373ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:17:48 AM</td>
+				<td class='step-details'>
+						PASSED
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='13'>
+					<div class='test-heading'>
+						<span class='test-name'>TestGeraldine Parisian</span>
+						<span class='test-time'>Jul 16, 2021 12:17:55 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 16, 2021 12:17:55 AM</span>
+	<span class='label end-time'>Jul 16, 2021 12:18:03 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+245ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:18:03 AM</td>
+				<td class='step-details'>
+						PASSED
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 					</div>
 				</li>
 			</ul>
@@ -300,7 +709,7 @@
 				<li class='exception displayed active'>
 					<div class='exception-heading'>
 						<span class='exception-name'>java.lang.AssertionError</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+						<span class='exception-count right'><span class='label red lighten-1 white-text'>2</span></span>
 					</div>
 					<div class='exception-content hide'>
 						<div class='exception-tests'>
@@ -314,15 +723,55 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jul 15, 2021 12:13:10 AM</td>
-										<td class='linked' test-id='1'>Vytrack Verification Test</td>
+										<td>Jul 16, 2021 12:15:45 AM</td>
+										<td class='linked' test-id='5'>TestRoma Medhurst</td>
 										<td>
-											<textarea disabled class="code-block">java.lang.AssertionError: Verify phone number:  expected [+189823234341] but found [+18982323434]
+											<textarea disabled class="code-block">java.lang.AssertionError: Verify the full name:  expected [Roma Medhurst] but found [Shirin Shirin]
 	at org.testng.Assert.fail(Assert.java:97)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:575)
-	at com.cybertek.tests.day15_review.VerifyContactInfoTest.contactDetailsTest(VerifyContactInfoTest.java:61)
+	at com.cybertek.tests.day16_ddf.DDFLoginTest.test1(DDFLoginTest.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>Jul 16, 2021 12:16:21 AM</td>
+										<td class='linked' test-id='7'>TestTurmer Considine</td>
+										<td>
+											<textarea disabled class="code-block">java.lang.AssertionError: Verify the full name:  expected [Turmer Considine] but found [Turner Considine]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at com.cybertek.tests.day16_ddf.DDFLoginTest.test1(DDFLoginTest.java:37)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -375,7 +824,7 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>13</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -387,19 +836,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jul 15, 2021 12:13:04 AM</div>
+					<div class='panel-lead'>Jul 16, 2021 12:14:37 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jul 15, 2021 12:13:24 AM</div>
+			 		<div class='panel-lead'>Jul 16, 2021 12:18:05 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 20s+133ms</div>
+					<div class='panel-lead'>0h 3m 27s+857ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -434,14 +883,14 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 1,
-				passParent: 0,
-				failParent: 1,
+                parentCount: 13,
+				passParent: 11,
+				failParent: 2,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
+				exceptionsParent: 2,
 				childCount: 0,
 				passChild: 0,
 				failChild: 0,
@@ -466,7 +915,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "Vytrack Verification Test":12.08
+			        "TestJohn Doe":5.916,"TestKyleigh Reichert":5.494,"TestNona Carroll":5.914,"TestGeovany Jenkins":13.53,"TestRoma Medhurst":14.703,"TestAditya Rempel":8.296,"TestTurmer Considine":9.18,"TestRachel Oberbrunner":9.155,"TestPeyton Harber":11.958,"TestPatricia Doyle":7.266,"TestNellie Corwin":8.113,"TestNikita Wintheiser":8.373,"TestGeraldine Parisian":8.245
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>
