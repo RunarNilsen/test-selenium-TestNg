@@ -37,7 +37,7 @@ public class VerifyContactInfoTest extends TestBase {
         // DashboardPage dashboardPage = new DashboardPage();
         BrowserUtils.waitForPageToLoad(5);
         new DashboardPage().navigateToModule("Customers", "Contacts"); // if you use this one time, don't create object, use like that
-        BrowserUtils.waitForPageToLoad(5);
+        BrowserUtils.waitForPageToLoad(10);
         extentLogger.info("Navigate to customers ->contacts);");
         // 5. click on email mbrackstone9@example.com
         ContactsPage contactsPage = new ContactsPage();
@@ -58,7 +58,7 @@ public class VerifyContactInfoTest extends TestBase {
 
         // 8. verify that phone number is +18982323434
         extentLogger.info("Verify phone is +18982323434");
-        Assert.assertEquals(contactInfoPage.phone.getText(), "+18982323434", "Verify phone number: ");
+        Assert.assertEquals(contactInfoPage.phone.getText(), "+189823234341", "Verify phone number: ");
 
         extentLogger.info("Vytrack Verification Test has been PASSED");
 
